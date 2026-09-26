@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FASHION — Let's Explore Unique Clothes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- HEADER -->
+<header class="header container">
+  <a class="logo" href="#"><span class="logo-mark">F</span> FASHION</a>
+  <nav class="nav" id="nav">
+    <a href="#">CATALOGUE</a>
+    <a href="#">FASHION</a>
+    <a href="#">FAVOURITE</a>
+    <a href="#">LIFESTYLE</a>
+    <a href="#" class="btn btn-dark btn-sm">SIGN UP</a>
+  </nav>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">☰</button>
+</header>
+
+<!-- HERO -->
+<section class="container">
+  <div class="hero">
+    <div class="hero-text">
+      <h1><span class="hl hl-white">LET'S</span><br>EXPLORE<br><span class="hl hl-yellow">UNIQUE</span> CLOTHES.</h1>
+      <p>Live for Influential and Innovative fashion!</p>
+      <div class="hero-cta">
+        <span class="squiggle"></span>
+        <a href="#" class="btn btn-dark">Shop Now</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <span class="star s1">✦</span><span class="star s2">✦</span><span class="star s3">✦</span><span class="star s4">✦</span>
+      <img src="assets/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png" alt="Smiling woman in pink eco-fur coat">
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<div class="brands">
+  <div class="container brands-row">
+    <img class="brands-img" src="assets/brands-strip.png" alt="H&M, OBEY, Shopify, Lacoste, Levi's, Amazon">
+  </div>
+</div>
+
+<!-- NEW ARRIVALS -->
+<section class="container section">
+  <h2 class="sec-title">NEW ARRIVALS <span class="leaf"></span></h2>
+  <div class="grid3">
+    <article class="card">
+      <div class="card-img"><img src="assets/arrival-1.png" alt="Woman in orange hoodie"></div>
+      <div class="card-meta"><div><h3>Hoodies & Sweetshirt</h3><a href="#">Explore Now!</a></div><span class="arrow">→</span></div>
+    </article>
+    <article class="card">
+      <div class="card-img violet"><img src="assets/arrival-2.png" alt="Woman in denim jacket and beanie"></div>
+      <div class="card-meta"><div><h3>Coats & Parkas</h3><a href="#">Explore Now!</a></div><span class="arrow">→</span></div>
+    </article>
+    <article class="card">
+      <div class="card-img blue"><img src="assets/arrival-3.png" alt="Woman in white tee and denim shorts"></div>
+      <div class="card-meta"><div><h3>Tees & T-Shirt</h3><a href="#">Explore Now!</a></div><span class="arrow">→</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- PAYDAY SALE -->
+<section class="sale">
+  <div class="container sale-grid">
+    <div class="sale-img"><span class="star s1">✦</span><span class="star s2">✦</span>
+      <img src="assets/payday-model.png" alt="Smiling woman in yellow top and denim shorts">
+    </div>
+    <div class="sale-text">
+      <h2><span class="hl hl-white">PAYDAY</span><br>SALE NOW</h2>
+      <p>Spend minimal $100 get 30% off<br>voucher code for your next purchase</p>
+      <p class="dates"><strong>1 June - 10 June 2021</strong><br>*Terms & Conditions apply</p>
+      <a href="#" class="btn btn-dark">SHOP NOW</a>
+    </div>
+  </div>
+</section>
+
+<!-- YOUNG'S FAVOURITE -->
+<section class="container section">
+  <h2 class="sec-title">Young's Favourite</h2>
+  <div class="grid2">
+    <article class="card card-lg">
+      <div class="card-img tall"><img src="assets/fav-1.png" alt="Two young women with sunglasses"></div>
+      <div class="card-meta"><div><h3>Trending on instagram</h3><a href="#">Explore Now!</a></div><span class="arrow">→</span></div>
+    </article>
+    <article class="card card-lg">
+      <div class="card-img tall pink"><img src="assets/fav-2.png" alt="Woman in white top and denim shorts"></div>
+      <div class="card-meta"><div><h3>All Under $40</h3><a href="#">Explore Now!</a></div><span class="arrow">→</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- APP -->
+<section class="container section app-grid">
+  <div>
+    <h2 class="sec-title">DOWNLOAD APP &<br>GET THE VOUCHER!</h2>
+    <p class="muted">Get 30% off for first transaction using<br>Rondovision mobile app for now.</p>
+    <div class="stores">
+      <a href="#" class="store">◉ App Store</a>
+      <a href="#" class="store">▶ Google Play</a>
+    </div>
+  </div>
+  <div class="phone-wrap">
+    <img class="app-shot" src="assets/app-phone.png" alt="Fashion app showing Match your style">
+    <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span><span class="dot d4"></span>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <div class="container">
+    <h2>JOIN SHOPPING COMMUNITY TO<br>GET MONTHLY PROMO</h2>
+    <p>Type your email down below and be young wild generation</p>
+    <form class="nl-form" id="nlForm" novalidate>
+      <input type="email" id="nlEmail" placeholder="Add your email here" aria-label="Email" required>
+      <button class="btn btn-dark" type="submit">SEND</button>
+    </form>
+    <p class="nl-msg" id="nlMsg" role="status" aria-live="polite"></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container foot-grid">
+    <div>
+      <a class="logo logo-light" href="#">FASHION</a>
+      <p class="muted">Complete your style with awesome clothes from us.</p>
+      <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Twitter">𝕏</a><a href="#" aria-label="LinkedIn">in</a></div>
+    </div>
+    <div><h4>Company</h4><a href="#">About</a><a href="#">Contact us</a><a href="#">Support</a><a href="#">Careers</a></div>
+    <div><h4>Quick Link</h4><a href="#">Share Location</a><a href="#">Orders Tracking</a><a href="#">Size Guide</a><a href="#">FAQs</a></div>
+    <div><h4>Legal</h4><a href="#">Terms & conditions</a><a href="#">Privacy Policy</a></div>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
